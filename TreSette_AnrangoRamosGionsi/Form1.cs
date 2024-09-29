@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.VisualBasic;
+
+namespace TreSette_AnrangoRamosGionsi
+{
+    public partial class Form1 : Form
+    {
+        private clsCarte carta;
+        private clsMazzoCarte mazzo=new clsMazzoCarte();    
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            carta = new clsCarte();
+            VisualizzaCarta();
+        }
+
+        private void btnCreaCartaCasuale_Click(object sender, EventArgs e)
+        {
+            carta = new clsCarte();
+            VisualizzaCarta();
+        }
+        private void VisualizzaCarta()
+        {
+            lblSemeCartaAttuale.Text = carta.Seme;
+            lblValoreCartaAttuale.Text = carta.Valore;
+        }
+
+        private void btnProponiCarta_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Ecco un esempio di carta Valida: {carta.Proponi()}", "Example", MessageBoxButtons.OK);
+        }
+
+        private void btnCreaCartaConParametri_Click(object sender, EventArgs e)
+        {
+            string val = txtValoreCarta.Text;
+            string sem=txtSemeCarta.Text;
+
+            val=val.Trim().ToUpper();
+            sem= sem.Trim().ToUpper();
+            try
+            {
+                carta.Valore= val;
+                carta.Seme=sem;
+
+                VisualizzaCarta();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Errore nell'Input: " + ex.Message);
+            }
+        }
+
+        private void btnInserireCartaNelMazzo_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                clsCarte nuovaCarta = new clsCarte(carta);
+            mazzo.InserisciCarta(nuovaCarta);
+            mazzo.VisualizzaMazzo(dgvMazzoCarte);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Errore: " + ex.Message);
+            }
+        }
+
+        private void btnMescolaMazzo_Click(object sender, EventArgs e)
+        {
+            mazzo.MescolaCarte();
+            mazzo.VisualizzaMazzo(dgvMazzoCarte);
+        }
+
+        private void btnCercaCarta_Click(object sender, EventArgs e)
+        {
+            string parametre = Interaction.InputBox("Inserire il valore o il seme della carta da cercare. \nSe nulla è inserito sarà pescata la prima carta", "Ricerca carta");
+            parametre = parametre.Trim().ToUpper();
+            try
+            {
+                if (parametre == "") carta=mazzo.DammiCarta();
+                else carta=mazzo.DammiCarta(parametre);
+
+                if (carta != default)
+                {
+                    VisualizzaCarta();
+                    MessageBox.Show("Carta trovata con successo e renderizzata correttamente");
+                }
+                else MessageBox.Show("Nessuna carta");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Errore: " + ex.Message);
+            }
+        }
+
+        private void btnVisualizzaTotali_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(mazzo.Totali());
+        }
+    }
+}
