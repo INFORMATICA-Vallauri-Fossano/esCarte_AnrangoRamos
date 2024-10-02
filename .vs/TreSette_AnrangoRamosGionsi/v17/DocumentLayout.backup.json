@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\clscarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\clscarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|c:\\users\\achar\\desktop\\escarte_anrangoramos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\clsmazzocarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\clsmazzocarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|c:\\users\\achar\\desktop\\escarte_anrangoramos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
               "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T09:43:00.021Z",
               "EditorCaption": ""
@@ -48,27 +48,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsCarte.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAA7wBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:15:22.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs",
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\Form1.cs",
               "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\Form1.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAjwGIAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAIA8wHMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T09:15:13.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsCarte.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:15:22.096Z",
               "EditorCaption": ""
             },
             {

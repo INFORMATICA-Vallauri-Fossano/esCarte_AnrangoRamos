@@ -103,6 +103,12 @@ namespace TreSette_AnrangoRamosGionsi
 
             return accettabile;
         }
+
+        public string VisDati()
+        {
+            return "Carta da valore " + Valore + " e seme " + Seme+"\n";
+        }
+
         /**
          * METODI PUBBLICI
          */

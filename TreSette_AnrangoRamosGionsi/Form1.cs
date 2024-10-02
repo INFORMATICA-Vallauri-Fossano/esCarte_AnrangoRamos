@@ -86,19 +86,35 @@ namespace TreSette_AnrangoRamosGionsi
 
         private void btnCercaCarta_Click(object sender, EventArgs e)
         {
-            string parametre = Interaction.InputBox("Inserire il valore o il seme della carta da cercare. \nSe nulla è inserito sarà pescata la prima carta", "Ricerca carta");
+            string parametre = Interaction.InputBox("Inserire il valore e/o il seme della carta da cercare. \nSe nulla è inserito sarà pescata la prima carta", "Ricerca carta");
             parametre = parametre.Trim().ToUpper();
+            clsCarte[] carteCercate;
             try
             {
-                if (parametre == "") carta=mazzo.DammiCarta();
-                else carta=mazzo.DammiCarta(parametre);
-
-                if (carta != default)
+                if (parametre == "")
                 {
+                    carta=mazzo.DammiCarta();
                     VisualizzaCarta();
                     MessageBox.Show("Carta trovata con successo e renderizzata correttamente");
                 }
-                else MessageBox.Show("Nessuna carta");
+                else
+                {
+                    carteCercate = mazzo.DammiCarte(parametre);
+
+                    if (carteCercate.Length == 1)
+                    {
+                        carta= carteCercate[0];
+                        VisualizzaCarta();
+                        MessageBox.Show("Carta trovata e renderizzata con successo");
+                    }
+                    else
+                    {
+                    string output = "Si è carcata una collezione di carte con "+parametre+" :\n";
+                    for (int i = 0; i < carteCercate.Length; i++)
+                        output += carteCercate[i].VisDati();
+                    MessageBox.Show(output);
+                    }
+                }
             }
             catch (Exception ex)
             {

@@ -36,6 +36,15 @@ namespace TreSette_AnrangoRamosGionsi
             //MessageBox.Show("Esito: "+output);
             return esistente;
         }
+        private bool ElementoTrovato(string value, string[] valori)
+        {
+            bool trovato = false;
+            int i = 0;
+            while (value != valori[i] && i < valori.Length - 1) i++;
+            if (valori[i] == value) trovato = true;
+
+            return trovato;
+        }
 
         /***
          * METODI PUBBLICI
@@ -71,13 +80,31 @@ namespace TreSette_AnrangoRamosGionsi
         }
 
         //questa funzione ricerca una carta O per Valore O per Seme, se la carta non  è
-        //presente tira un eccezione
-        public clsCarte DammiCarta(string SemeOValore)
+        //presente o valore e seme sono scambiati nel'input tira un eccezione (perchè non trovati)
+        public clsCarte[] DammiCarte(string SemeOValore)
         {
-            int i = 0;
-            while ((Mazzo[i].Seme != SemeOValore && Mazzo[i].Valore != SemeOValore) && i < numCarte - 1) i++;
-            if (Mazzo[i].Seme == SemeOValore || Mazzo[i].Valore == SemeOValore) return Mazzo[i];
-            else throw new Exception("Carta non Presente nel Mazzo");
+            List<clsCarte> retCarte= new List<clsCarte>();  
+            string exception="";
+            string[] valoreSeme= SemeOValore.Split(' ');
+
+            if(valoreSeme.Length == 2)
+            {
+                //si ricerca per sentinella, perciò una sola carta sarà trovata
+                int i = 0;
+                while ((Mazzo[i].Seme != valoreSeme[1] && Mazzo[i].Valore != valoreSeme[0]) && i < numCarte - 1) i++;
+                if (Mazzo[i].Seme == valoreSeme[1] && Mazzo[i].Valore == valoreSeme[0]) retCarte.Add(Mazzo[i]) ;
+                else exception= "Carta non Presente nel Mazzo";
+            }
+            else
+            {
+                //l'insieme di sia semi che valori è non disgiunto e non ordinato perciò si utilizzerà un for
+                for (int i = 0; i < numCarte; i++)
+                    if (Mazzo[i].Seme == SemeOValore || Mazzo[i].Valore == SemeOValore) retCarte.Add(Mazzo[i]);
+                if (retCarte.Count == 0) exception = "Nessuna carta con stringa: " + SemeOValore;
+            }
+
+            if (exception == "") return retCarte.ToArray();
+            else throw new Exception(exception);
         }
 
         public void VisualizzaMazzo(DataGridView dgv)
