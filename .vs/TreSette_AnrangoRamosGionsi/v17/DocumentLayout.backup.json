@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\",
+  "WorkspaceRootPath": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|c:\\users\\achar\\desktop\\tresette_anrangoramosgionsi\\tresette_anrangoramosgionsi\\clscarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\clscarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\clscarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\tresette_anrangoramosgionsi\\clsmazzocarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\tresette_anrangoramosgionsi\\clsmazzocarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\clsmazzocarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|c:\\users\\achar\\desktop\\escarte_anrangoramos\\tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64209021-76FB-4D52-AC4C-94865A68BE71}|TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi.csproj|solutionrelative:tresette_anrangoramosgionsi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,37 +34,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "clsMazzoCarte.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\clsMazzoCarte.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T09:43:00.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "clsCarte.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\clsCarte.cs",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\clsCarte.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAA7wBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAA7wBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T09:15:22.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs",
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\Form1.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\Form1.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\Form1.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAjwGIAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,11 +73,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs",
               "RelativeDocumentMoniker": "TreSette_AnrangoRamosGionsi\\Form1.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\TreSette_AnrangoRamosGionsi\\TreSette_AnrangoRamosGionsi\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\esCarte_AnrangoRamos\\TreSette_AnrangoRamosGionsi\\Form1.cs [Design]",
               "RelativeToolTip": "TreSette_AnrangoRamosGionsi\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T16:02:24.47Z",

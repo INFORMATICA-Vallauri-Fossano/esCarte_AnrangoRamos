@@ -8,3 +8,13 @@ C:\Users\achar\Desktop\TreSette_AnrangoRamosGionsi\TreSette_AnrangoRamosGionsi\o
 C:\Users\achar\Desktop\TreSette_AnrangoRamosGionsi\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.csproj.CoreCompileInputs.cache
 C:\Users\achar\Desktop\TreSette_AnrangoRamosGionsi\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.exe
 C:\Users\achar\Desktop\TreSette_AnrangoRamosGionsi\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.pdb
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\bin\Debug\TreSette_AnrangoRamosGionsi.exe.config
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\bin\Debug\TreSette_AnrangoRamosGionsi.exe
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\bin\Debug\TreSette_AnrangoRamosGionsi.pdb
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.csproj.AssemblyReference.cache
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.Form1.resources
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.Properties.Resources.resources
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.csproj.GenerateResource.cache
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.csproj.CoreCompileInputs.cache
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.exe
+C:\Users\achar\Desktop\esCarte_AnrangoRamos\TreSette_AnrangoRamosGionsi\obj\Debug\TreSette_AnrangoRamosGionsi.pdb

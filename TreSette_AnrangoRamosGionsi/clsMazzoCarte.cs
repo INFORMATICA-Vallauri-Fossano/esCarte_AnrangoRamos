@@ -11,25 +11,58 @@ namespace TreSette_AnrangoRamosGionsi
     internal class clsMazzoCarte
     {
         //lista di elementi clsCarte 
-        private List<clsCarte> Mazzo=new List<clsCarte>();
+        private List<clsCarte> Mazzo = new List<clsCarte>();
 
         //numero progressivo statico
-        private static int numCarte=0;
+        private static int numCarte = 0;
 
-        private static Random rnd=new Random();
-        
+        private static Random rnd = new Random();
+        /***
+         * METODI PRIVATI
+         */
+        private bool cartaGiaEsistente(clsCarte card, List<clsCarte> mazzoCard)
+        {
+            bool esistente = false;
+            int i = 0;
+            //string output = "";
+            //output += (card != mazzoCard[i]).ToString() + "\n";
+            while (((card.Seme != mazzoCard[i].Seme) || (mazzoCard[i].Valore != card.Valore)) && i < numCarte - 1)
+            {
+                i++;
+                //output += (card != mazzoCard[i]).ToString() + "\n";
+            }
+            if ((card.Seme == mazzoCard[i].Seme) && (mazzoCard[i].Valore == card.Valore)) esistente = true;
+
+            //MessageBox.Show("Esito: "+output);
+            return esistente;
+        }
+
         /***
          * METODI PUBBLICI
          */
         public void InserisciCarta(clsCarte carta)
         {
-            if (numCarte <= 40)
+            if (numCarte != 0)
+            {
+                if (numCarte <= 40)
+                {
+                    if (!cartaGiaEsistente(carta, Mazzo))
+                    {
+                        Mazzo.Add(carta);
+                        numCarte++;
+                    }
+                    else throw new Exception("Carta già esistente");
+                }
+                else throw new Exception("Mazzo pieno");
+            }
+            else
             {
                 Mazzo.Add(carta);
                 numCarte++;
             }
-            else throw new Exception("Mazzo pieno");
         }
+
+
 
         //primo metodo DammiCarta, esso restituisce la prima carta nel mazzo
         public clsCarte DammiCarta()
@@ -47,7 +80,7 @@ namespace TreSette_AnrangoRamosGionsi
             else throw new Exception("Carta non Presente nel Mazzo");
         }
 
-        public  void VisualizzaMazzo(DataGridView dgv)
+        public void VisualizzaMazzo(DataGridView dgv)
         {
             dgv.DataSource = null;
             dgv.DataSource = Mazzo;
@@ -58,7 +91,7 @@ namespace TreSette_AnrangoRamosGionsi
         public string Totali()
         {
             string output;
-            int[] contSemi=new int[4];
+            int[] contSemi = new int[4];
             for (int i = 0; i < numCarte; i++)
             {
                 if (Mazzo[i].Seme == clsCarte.Semi[0]) contSemi[0]++;
@@ -79,7 +112,7 @@ namespace TreSette_AnrangoRamosGionsi
             int pos;
             for (int i = 0; i < numCarte; i++)
             {
-                pos=rnd.Next(numCarte);
+                pos = rnd.Next(numCarte);
                 (Mazzo[i], Mazzo[pos]) = (Mazzo[pos], Mazzo[i]);
             }
         }
