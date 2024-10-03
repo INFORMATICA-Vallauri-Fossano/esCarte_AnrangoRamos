@@ -93,9 +93,13 @@ namespace TreSette_AnrangoRamosGionsi
             {
                 if (parametre == "")
                 {
-                    carta=mazzo.DammiCarta();
-                    VisualizzaCarta();
-                    MessageBox.Show("Carta trovata con successo e renderizzata correttamente");
+                        carta = mazzo.DammiCarta();
+                    if (carta != null)
+                    {
+                        VisualizzaCarta();
+                        MessageBox.Show("Carta trovata con successo e renderizzata correttamente");
+                    }
+                    else MessageBox.Show("Mazzo vuoto!");
                 }
                 else
                 {
@@ -104,11 +108,13 @@ namespace TreSette_AnrangoRamosGionsi
                     if (carteCercate.Length == 1)
                     {
                         carta= carteCercate[0];
-                        VisualizzaCarta();
-                        MessageBox.Show("Carta trovata e renderizzata con successo");
+                        
+                            VisualizzaCarta();
+                            MessageBox.Show("Carta trovata e renderizzata con successo");
                     }
                     else
                     {
+                        MessageBox.Show(carta.ToString());
                     string output = "Si è carcata una collezione di carte con "+parametre+" :\n";
                     for (int i = 0; i < carteCercate.Length; i++)
                         output += carteCercate[i].VisDati();

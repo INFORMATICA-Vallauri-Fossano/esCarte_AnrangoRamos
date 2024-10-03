@@ -52,12 +52,13 @@
             // dgvMazzoCarte
             // 
             this.dgvMazzoCarte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMazzoCarte.Location = new System.Drawing.Point(488, 46);
+            this.dgvMazzoCarte.Location = new System.Drawing.Point(366, 37);
+            this.dgvMazzoCarte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvMazzoCarte.Name = "dgvMazzoCarte";
             this.dgvMazzoCarte.RowHeadersVisible = false;
             this.dgvMazzoCarte.RowHeadersWidth = 51;
             this.dgvMazzoCarte.RowTemplate.Height = 24;
-            this.dgvMazzoCarte.Size = new System.Drawing.Size(300, 392);
+            this.dgvMazzoCarte.Size = new System.Drawing.Size(225, 318);
             this.dgvMazzoCarte.TabIndex = 0;
             // 
             // grbInputCarta
@@ -67,9 +68,11 @@
             this.grbInputCarta.Controls.Add(this.label1);
             this.grbInputCarta.Controls.Add(this.txtValoreCarta);
             this.grbInputCarta.Controls.Add(this.btnCreaCartaConParametri);
-            this.grbInputCarta.Location = new System.Drawing.Point(12, 12);
+            this.grbInputCarta.Location = new System.Drawing.Point(9, 10);
+            this.grbInputCarta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbInputCarta.Name = "grbInputCarta";
-            this.grbInputCarta.Size = new System.Drawing.Size(209, 205);
+            this.grbInputCarta.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbInputCarta.Size = new System.Drawing.Size(157, 167);
             this.grbInputCarta.TabIndex = 1;
             this.grbInputCarta.TabStop = false;
             this.grbInputCarta.Text = "Creazione carta con Parametri";
@@ -77,40 +80,45 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 99);
+            this.label2.Location = new System.Drawing.Point(4, 80);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
+            this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Seme";
             // 
             // txtSemeCarta
             // 
-            this.txtSemeCarta.Location = new System.Drawing.Point(7, 118);
+            this.txtSemeCarta.Location = new System.Drawing.Point(5, 96);
+            this.txtSemeCarta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSemeCarta.Name = "txtSemeCarta";
-            this.txtSemeCarta.Size = new System.Drawing.Size(184, 22);
+            this.txtSemeCarta.Size = new System.Drawing.Size(139, 20);
             this.txtSemeCarta.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 34);
+            this.label1.Location = new System.Drawing.Point(4, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 16);
+            this.label1.Size = new System.Drawing.Size(37, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Valore";
             // 
             // txtValoreCarta
             // 
-            this.txtValoreCarta.Location = new System.Drawing.Point(7, 53);
+            this.txtValoreCarta.Location = new System.Drawing.Point(5, 43);
+            this.txtValoreCarta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtValoreCarta.Name = "txtValoreCarta";
-            this.txtValoreCarta.Size = new System.Drawing.Size(100, 22);
+            this.txtValoreCarta.Size = new System.Drawing.Size(76, 20);
             this.txtValoreCarta.TabIndex = 1;
             // 
             // btnCreaCartaConParametri
             // 
-            this.btnCreaCartaConParametri.Location = new System.Drawing.Point(60, 157);
+            this.btnCreaCartaConParametri.Location = new System.Drawing.Point(45, 128);
+            this.btnCreaCartaConParametri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCreaCartaConParametri.Name = "btnCreaCartaConParametri";
-            this.btnCreaCartaConParametri.Size = new System.Drawing.Size(88, 29);
+            this.btnCreaCartaConParametri.Size = new System.Drawing.Size(66, 24);
             this.btnCreaCartaConParametri.TabIndex = 0;
             this.btnCreaCartaConParametri.Text = "Crea Carta";
             this.btnCreaCartaConParametri.UseVisualStyleBackColor = true;
@@ -118,9 +126,10 @@
             // 
             // btnCreaCartaCasuale
             // 
-            this.btnCreaCartaCasuale.Location = new System.Drawing.Point(12, 239);
+            this.btnCreaCartaCasuale.Location = new System.Drawing.Point(9, 194);
+            this.btnCreaCartaCasuale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCreaCartaCasuale.Name = "btnCreaCartaCasuale";
-            this.btnCreaCartaCasuale.Size = new System.Drawing.Size(148, 29);
+            this.btnCreaCartaCasuale.Size = new System.Drawing.Size(111, 24);
             this.btnCreaCartaCasuale.TabIndex = 2;
             this.btnCreaCartaCasuale.Text = "Crea Carta Casuale";
             this.btnCreaCartaCasuale.UseVisualStyleBackColor = true;
@@ -128,9 +137,10 @@
             // 
             // btnInserireCartaNelMazzo
             // 
-            this.btnInserireCartaNelMazzo.Location = new System.Drawing.Point(280, 239);
+            this.btnInserireCartaNelMazzo.Location = new System.Drawing.Point(210, 194);
+            this.btnInserireCartaNelMazzo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInserireCartaNelMazzo.Name = "btnInserireCartaNelMazzo";
-            this.btnInserireCartaNelMazzo.Size = new System.Drawing.Size(164, 29);
+            this.btnInserireCartaNelMazzo.Size = new System.Drawing.Size(123, 24);
             this.btnInserireCartaNelMazzo.TabIndex = 4;
             this.btnInserireCartaNelMazzo.Text = "Inserisci nel Mazzo";
             this.btnInserireCartaNelMazzo.UseVisualStyleBackColor = true;
@@ -138,11 +148,14 @@
             // 
             // grbCartaAttuale
             // 
+            this.grbCartaAttuale.BackColor = System.Drawing.Color.White;
             this.grbCartaAttuale.Controls.Add(this.lblSemeCartaAttuale);
             this.grbCartaAttuale.Controls.Add(this.lblValoreCartaAttuale);
-            this.grbCartaAttuale.Location = new System.Drawing.Point(280, 17);
+            this.grbCartaAttuale.Location = new System.Drawing.Point(210, 14);
+            this.grbCartaAttuale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbCartaAttuale.Name = "grbCartaAttuale";
-            this.grbCartaAttuale.Size = new System.Drawing.Size(164, 200);
+            this.grbCartaAttuale.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbCartaAttuale.Size = new System.Drawing.Size(123, 162);
             this.grbCartaAttuale.TabIndex = 6;
             this.grbCartaAttuale.TabStop = false;
             this.grbCartaAttuale.Text = "Carta Attuale o Cercata";
@@ -150,9 +163,10 @@
             // lblSemeCartaAttuale
             // 
             this.lblSemeCartaAttuale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSemeCartaAttuale.Location = new System.Drawing.Point(11, 116);
+            this.lblSemeCartaAttuale.Location = new System.Drawing.Point(8, 94);
+            this.lblSemeCartaAttuale.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSemeCartaAttuale.Name = "lblSemeCartaAttuale";
-            this.lblSemeCartaAttuale.Size = new System.Drawing.Size(147, 25);
+            this.lblSemeCartaAttuale.Size = new System.Drawing.Size(110, 20);
             this.lblSemeCartaAttuale.TabIndex = 1;
             this.lblSemeCartaAttuale.Text = "XXX";
             this.lblSemeCartaAttuale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,18 +174,20 @@
             // lblValoreCartaAttuale
             // 
             this.lblValoreCartaAttuale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValoreCartaAttuale.Location = new System.Drawing.Point(6, 54);
+            this.lblValoreCartaAttuale.Location = new System.Drawing.Point(4, 44);
+            this.lblValoreCartaAttuale.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblValoreCartaAttuale.Name = "lblValoreCartaAttuale";
-            this.lblValoreCartaAttuale.Size = new System.Drawing.Size(152, 25);
+            this.lblValoreCartaAttuale.Size = new System.Drawing.Size(114, 20);
             this.lblValoreCartaAttuale.TabIndex = 0;
             this.lblValoreCartaAttuale.Text = "XXX";
             this.lblValoreCartaAttuale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnProponiCarta
             // 
-            this.btnProponiCarta.Location = new System.Drawing.Point(12, 277);
+            this.btnProponiCarta.Location = new System.Drawing.Point(9, 225);
+            this.btnProponiCarta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProponiCarta.Name = "btnProponiCarta";
-            this.btnProponiCarta.Size = new System.Drawing.Size(107, 23);
+            this.btnProponiCarta.Size = new System.Drawing.Size(80, 19);
             this.btnProponiCarta.TabIndex = 2;
             this.btnProponiCarta.Text = "Proponi Carta";
             this.btnProponiCarta.UseVisualStyleBackColor = true;
@@ -179,9 +195,10 @@
             // 
             // btnMescolaMazzo
             // 
-            this.btnMescolaMazzo.Location = new System.Drawing.Point(488, 17);
+            this.btnMescolaMazzo.Location = new System.Drawing.Point(366, 14);
+            this.btnMescolaMazzo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMescolaMazzo.Name = "btnMescolaMazzo";
-            this.btnMescolaMazzo.Size = new System.Drawing.Size(113, 23);
+            this.btnMescolaMazzo.Size = new System.Drawing.Size(85, 19);
             this.btnMescolaMazzo.TabIndex = 7;
             this.btnMescolaMazzo.Text = "Mescola Mazzo";
             this.btnMescolaMazzo.UseVisualStyleBackColor = true;
@@ -189,9 +206,10 @@
             // 
             // btnCercaCarta
             // 
-            this.btnCercaCarta.Location = new System.Drawing.Point(280, 274);
+            this.btnCercaCarta.Location = new System.Drawing.Point(210, 223);
+            this.btnCercaCarta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCercaCarta.Name = "btnCercaCarta";
-            this.btnCercaCarta.Size = new System.Drawing.Size(164, 29);
+            this.btnCercaCarta.Size = new System.Drawing.Size(123, 24);
             this.btnCercaCarta.TabIndex = 8;
             this.btnCercaCarta.Text = "Cerca Carta del Mazzo";
             this.btnCercaCarta.UseVisualStyleBackColor = true;
@@ -199,9 +217,10 @@
             // 
             // btnVisualizzaTotali
             // 
-            this.btnVisualizzaTotali.Location = new System.Drawing.Point(607, 17);
+            this.btnVisualizzaTotali.Location = new System.Drawing.Point(455, 14);
+            this.btnVisualizzaTotali.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVisualizzaTotali.Name = "btnVisualizzaTotali";
-            this.btnVisualizzaTotali.Size = new System.Drawing.Size(181, 23);
+            this.btnVisualizzaTotali.Size = new System.Drawing.Size(136, 19);
             this.btnVisualizzaTotali.TabIndex = 5;
             this.btnVisualizzaTotali.Text = "Numero Carte per Seme";
             this.btnVisualizzaTotali.UseVisualStyleBackColor = true;
@@ -209,9 +228,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnVisualizzaTotali);
             this.Controls.Add(this.btnCercaCarta);
             this.Controls.Add(this.btnMescolaMazzo);
@@ -221,8 +240,9 @@
             this.Controls.Add(this.btnCreaCartaCasuale);
             this.Controls.Add(this.grbInputCarta);
             this.Controls.Add(this.dgvMazzoCarte);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Carte";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMazzoCarte)).EndInit();
             this.grbInputCarta.ResumeLayout(false);
